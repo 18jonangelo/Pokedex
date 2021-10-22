@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.img-head {
+  display: flex;
+  justify-content: center;
+}
+
+.img-head img {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container img {
+  width: 100%;
+  max-width: 30rem;
+  padding: 20px;
+}
+
+.container .content {
+  position: relative;
+  background: url(images/pokeball.png);
+  background-size: cover;
+  background-position: bottom;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 5%;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.searchBtn {
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+button {
+  color: white;
+  background-color: crimson;
+  padding: 5px 100px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+button:hover {
+  background-color: darkred;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+  color: white;
+}
+.content > div {
+  font-weight: bolder;
+}
+.content span {
+  font-weight: 800;
+  color: skyblue;
+}
+
+.pokedex-img {
+  z-index: 2;
+}
+
+.sprite-cont {
+  position: absolute;
+  left: 410px;
+  top: 270px;
+  z-index: 1;
+}
